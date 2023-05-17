@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoop It Up! Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<!--NAVBAR -->
+    <div class="topnav" id="myTopnav">
+        <a href="C:\Users\sagjm59\OneDrive - Cardiff University\Desktop\Code First Girls\FInal Project\index.html" class="active">Home</a>
+        <a href="C:\Users\sagjm59\OneDrive - Cardiff University\Desktop\Code First Girls\FInal Project\index2.html">Our Story</a>
+        <a href="C:\Users\sagjm59\OneDrive - Cardiff University\Desktop\Code First Girls\FInal Project\index3.html">Our Cafe</a>
+        <div class="dropdown1">
+          <button class="dropbtn">Our Products
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content1">
+            <a href="C:\Users\sagjm59\OneDrive - Cardiff University\Desktop\Code First Girls\FInal Project\index3.html">All Products</a>
+            <a href="C:\Users\sagjm59\OneDrive - Cardiff University\Desktop\Code First Girls\FInal Project\index3.html">Limited Editions</a>
+            <a href="C:\Users\sagjm59\OneDrive - Cardiff University\Desktop\Code First Girls\FInal Project\index3.html">New Products</a>
+            <a href="C:\Users\sagjm59\OneDrive - Cardiff University\Desktop\Code First Girls\FInal Project\index3.html">Cocktail Inspired</a>
+            <a href="C:\Users\sagjm59\OneDrive - Cardiff University\Desktop\Code First Girls\FInal Project\index3.html">Global Flavours</a>
+            <a href="C:\Users\sagjm59\OneDrive - Cardiff University\Desktop\Code First Girls\FInal Project\index3.html">Customer Favourites</a>
+            <a href="C:\Users\sagjm59\OneDrive - Cardiff University\Desktop\Code First Girls\FInal Project\index3.html">Vegan</a>
+          </div>
+        </div>
+        <a href="C:\Users\sagjm59\OneDrive - Cardiff University\Desktop\Code First Girls\FInal Project\UC.html">Contact Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+      
+    <!--Header needs to be overlaying an appropriate image, centred horizontally, possibly 
+        vertically. Colour and font need to be changed, and size to be appropriate-->
+        <div class="heading_1">
+            <header>
+                <h1>Scoop It Up!</h1>
+            </header>
+        </div>
+
+    <!--Create a search bar and button here-->
+        <div class="searchbar">
+            <form class="search" action="/action_page.php" style="margin:auto;max-width:600px">
+                <input type="text" placeholder="Search..." name="search1">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+       </div>
+
+ <!--Intro text-->  
+        <div class="introduction">
+        <h3>Bad day at work? In need of a weekend treat? Just love ice cream?</h3>
+        <h3>Well Scoop It Up! has got you covered<sp>!</span></h3>
+            <br>
+    <p>Whether you visit us in our Pumpkin Street Cafe, catch us at a summer festival, or order our delicious products straight to your door, we will always have the scoop for you!</p>
+    </div> 
+
+    <!--Create a 3 image gallery images linking to UC page with seasonal specials, picnic preorders and 
+        In a pinch-->
+
+        <div class="gallery">
+            <div class="gallery1">
+                <h2><a href="C:\Users\sagjm59\OneDrive - Cardiff University\Desktop\Code First Girls\Final Project\index3.html" target="_self">Limited Editions</a></h2>
+            </div>
+            <div class="gallery2">
+                <h2><a href="C:\Users\sagjm59\OneDrive - Cardiff University\Desktop\Code First Girls\Final Project\index3.html" target="_self">New Products</a></h2>
+            </div>
+            <div class="gallery3">
+                <h2><a href="C:\Users\sagjm59\OneDrive - Cardiff University\Desktop\Code First Girls\Final Project\index3.html" target="_self">Cocktail Inspired</a></h2>
+            </div>
+            <div class="gallery4">
+                <h2><a href="C:\Users\sagjm59\OneDrive - Cardiff University\Desktop\Code First Girls\Final Project\index3.html" target="_self">Global Flavours</a></h2>
+            </div>
+            <div class="gallery5">
+                <h2><a href="C:\Users\sagjm59\OneDrive - Cardiff University\Desktop\Code First Girls\Final Project\index3.html" target="_self">Customer Favourites</a></h2>
+            </div>
+            <div class="gallery6">
+                <h2><a href="C:\Users\sagjm59\OneDrive - Cardiff University\Desktop\Code First Girls\Final Project\index3.html" target="_self">Vegan</a></h2>
+            </div>
+        </div>
+
+<!--Testimonials
+        <div class="testimonials">
+            <div class="quote1">
+                <h5>Amazing!</h5>
+            </div>
+            <div class="quote2">
+                <h5>Wonderful!</h5>
+            </div>
+            <div class="quote3">
+                <h5>Best Ever!</h5>
+            </div>
+        </div>-->
+
+<!--Newsletter sign Up link-->
+<div class="newsletter-subscribe mt-5 container">
+    <div class="container">
+        <div class="intro">
+            <h3 class="text-center newsletter">Get The Scoop</h3>
+            <p class="text-center">Sign up to our newsletter to get the scoop on all our latest flavours, events and offers!</p>
+        </div>
+        <form class="form-inline" method="post">
+           <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Your Email"></div>
+            <div class="form-group"><button id="mybutton" onclick="buttonAlert()" class="btn btn-primary" type="button">Subscribe </button></div>
+        </form>
+    </div>
+</div>
+
+
+
+ <!--Box it in colour match heading? Centre text-->
+    <footer class="footer">
+        <ul>
+            <li> <a href="C:\Users\sagjm59\OneDrive - Cardiff University\Desktop\Code First Girls\Final Project\index.html" target="_self">Home</a></li>
+            <li> <a href="C:\Users\sagjm59\OneDrive - Cardiff University\Desktop\Code First Girls\Final Project\index2.html" target="_self">Our Story</a></li>
+            <li> <a href="C:\Users\sagjm59\OneDrive - Cardiff University\Desktop\Code First Girls\Final Project\index3.html" target="_self">Our Cafe</a></li>
+            <li> <a href="C:\Users\sagjm59\OneDrive - Cardiff University\Desktop\Code First Girls\Final Project\index3.html" target="_self">Our Products</a></li>
+            <li> <a href="C:\Users\sagjm59\OneDrive - Cardiff University\Desktop\Code First Girls\Final Project\index3.html" target="_self">Contact Us</a></li>
+        </ul>
+        <p>&copy Jo M (2023) All rights reserved</p>
+    </footer>
+
+
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+    
+        <script>
+            function buttonAlert() {
+            alert("Thank you for signing up to our newsletter!");
+            }
+        </script>
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    
+</body>
+</html>
